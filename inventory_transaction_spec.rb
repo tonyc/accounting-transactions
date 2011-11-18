@@ -1,5 +1,4 @@
-$: << "."
-require 'accounting_transaction'
+require_relative 'accounting_transaction'
 
 describe InventoryTransaction do
 
